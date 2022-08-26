@@ -1,0 +1,14 @@
+.accordion-button:after {
+    order: -1; /*swap order*/
+    margin-left: 0;
+    margin-right: 0.5em; /* just extra space between text and icon */
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  .cash-value {
+    color: blue;
+  }
+  
