@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 
-<body>
+<body onload="loadProductList()">
   <nav class="navbar navbar-expand-lg bg-dark mt-0">
     <div class="container-fluid text-white">
       <div class="d-flex justify-content-start align-center gap-3">
@@ -78,6 +78,9 @@
                   <i class="fa-solid fa-shopping-cart"></i><span id="cartCurrent"
                     class="badge bg-info top-5 start-100 rounded-circle">0</span></a>
                 <i class="fa-solid fa-search"></i>
+
+                
+
               </div>
 
             </div>
@@ -365,7 +368,7 @@
 
             <div class="row flex-md-row mb-4">
               <div class="col-auto d-none d-lg-block">
-                <img class="flex-shrink-0 me-0 ms-0" src="https://picsum.photos/100/140" alt="..." />
+                <img class="flex-shrink-0 me-0 ms-0" src="img/shop-stock-1.png" width="100px" alt="..." />
               </div>
               <div class="col p-4 d-flex flex-column">
                 <h3 class="mb-4 fs-6 fw-bold">Product X</h3>
@@ -375,7 +378,7 @@
 
             <div class="row flex-md-row mb-4">
               <div class="col-auto d-none d-lg-block">
-                <img class="flex-shrink-0 me-0 ms-0" src="https://picsum.photos/100/140" alt="..." />
+                <img class="flex-shrink-0 me-0 ms-0" src="img/shop-stock-2.png" width="100px" alt="..." />
               </div>
               <div class="col p-4 d-flex flex-column">
                 <h3 class="mb-4 fs-6 fw-bold">Product X</h3>
@@ -385,7 +388,7 @@
 
             <div class="row flex-md-row mb-4">
               <div class="col-auto d-none d-lg-block">
-                <img class="flex-shrink-0 me-0 ms-0" src="https://picsum.photos/100/140" alt="..." />
+                <img class="flex-shrink-0 me-0 ms-0" src="img/shop-stock-3.png" width="100px" alt="..." />
               </div>
               <div class="col p-4 d-flex flex-column">
                 <h3 class="mb-4 fs-6 fw-bold">Product X</h3>
@@ -418,7 +421,7 @@
 
         <div class="w-100 d-sm-block d-md-none d-lg-none"></div>
 
-        <div class="col-8 col-md-7 col-sm-10 col-lg-5">
+        <div id="product_catalog" class="col-8 col-md-7 col-sm-10 col-lg-5">
           <!-- START Product List Header -->
           <div class="row border-bottom p-1">
             Showing 1-6 of 44 results
@@ -634,7 +637,7 @@
           <!-- END Product List -->
 
           <!-- START Pagination Controls -->
-          <div class="row">
+          <div id="pagination" class="row">
             <nav aria-label="Shop Product Pagination ">
               <ul
                 class="pagination pagination-sm justify-content-center border-top border-bottom border-2 border-light">

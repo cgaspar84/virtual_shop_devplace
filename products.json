@@ -1,0 +1,60 @@
+{
+    "catalog_products": [
+        { 
+            "id" : "991",
+            "name" : "Product AA",
+            "img" : "img/shop-stock-1.png",
+            "price" : "250.00",
+            "rating" : "3",
+            "tags" : ["Shoes", "T-Shirt", "Teen"],
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Crasorci enim, blandit eget elit cursus, aliquet luctus orci. Duis molestie vulputate lectus, sed rhoncus eros cursus sed. Duis ac lectus eget massa viverra varius eu."
+            
+        }, 
+        { 
+            "id" : "992",
+            "name" : "Product BB",
+            "img" : "img/shop-stock-2.png",
+            "price" : "50.00",
+            "rating" : "3",
+            "tags" : ["Shoes", "T-Shirt", "Teen"],
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Crasorci enim, blandit eget elit cursus, aliquet luctus orci. Duis molestie vulputate lectus, sed rhoncus eros cursus sed. Duis ac lectus eget massa viverra varius eu."
+        }, 
+        { 
+            "id" : "883",
+            "name" : "Product CC",
+            "img" : "img/shop-stock-3.png",
+            "price" : "100.00",
+            "rating" : "3",
+            "tags" : ["Shoes", "T-Shirt", "Teen"],
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Crasorci enim, blandit eget elit cursus, aliquet luctus orci. Duis molestie vulputate lectus, sed rhoncus eros cursus sed. Duis ac lectus eget massa viverra varius eu."
+        }, 
+        { 
+            "id" : "884",
+            "name" : "Product DD",
+            "img" : "img/shop-stock-4.png",
+            "price" : "250.00",
+            "rating" : "3",
+            "tags" : ["Shoes", "T-Shirt", "Teen"],
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Crasorci enim, blandit eget elit cursus, aliquet luctus orci. Duis molestie vulputate lectus, sed rhoncus eros cursus sed. Duis ac lectus eget massa viverra varius eu."
+        }, 
+        { 
+            "id" : "775",
+            "name" : "Product EE",
+            "img" : "img/shop-stock-5.png",
+            "price" : "50.00",
+            "rating" : "3",
+            "tags" : ["Shoes", "T-Shirt", "Teen"],
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Crasorci enim, blandit eget elit cursus, aliquet luctus orci. Duis molestie vulputate lectus, sed rhoncus eros cursus sed. Duis ac lectus eget massa viverra varius eu."
+        }, 
+        { 
+            "id" : "997",
+            "name" : "Product FF",
+            "img" : "img/shop-stock-6.png",
+            "price" : "250.00",
+            "rating" : "4",
+            "tags" : ["Shoes", "T-Shirt", "Teen"],
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Crasorci enim, blandit eget elit cursus, aliquet luctus orci. Duis molestie vulputate lectus, sed rhoncus eros cursus sed. Duis ac lectus eget massa viverra varius eu."
+        } 
+
+    ]
+}
