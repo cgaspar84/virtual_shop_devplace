@@ -1,14 +1,50 @@
 .accordion-button:after {
-    order: -1; /*swap order*/
-    margin-left: 0;
-    margin-right: 0.5em; /* just extra space between text and icon */
-  }
-  
-  .checked {
-    color: orange;
-  }
-  
-  .cash-value {
-    color: blue;
-  }
-  
+  order: -1; /*swap order*/
+  margin-left: 0;
+  margin-right: 0.5em; /* just extra space between text and icon */
+}
+
+.checked {
+  color: orange;
+}
+
+.cash-value {
+  color: blue;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #42b977;
+  border-color: #42b977;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #34995f;
+  border-color: #34995f;
+}
+
+.btn-primary:active {
+  color: #fff;
+  background-color: #42b977;
+  border-color: #42b977;
+}
+
+.btn-primary:focus {
+  color: #fff;
+  background-color: #42b977;
+  border-color: #42b977;
+}
+
+.cash-value {
+  color: #34995f;
+}
+
+.text-primary {
+  color: #34995f !important;
+}
+
+.btn-outline-primary {
+  color: #42b977;
+  border-color: #42b977;
+}
